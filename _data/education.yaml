@@ -1,0 +1,15 @@
+educations:
+
+- place: "Georgia Institute of Technology"
+  time: "2023 - 2025"
+  title: "MS in Computer Science"
+  subtitle: "Machine Learning Specialization"
+  thumbnail: "/assets/images/gtech.png"
+  category: "school"
+
+- place: "National Institute of Technology"
+  time: "2018 - 2022"
+  title: "BTech in Information Technology"
+  subtitle: "Minor in Financial Management"
+  thumbnail: "/assets/images/nitk.png"
+  category: "school"

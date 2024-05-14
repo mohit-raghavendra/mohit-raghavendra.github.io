@@ -1,0 +1,34 @@
+experiences:
+
+- place: "Goldman Sachs"
+  time: "2022 - 2023"
+  title: "Software Engineer"
+  subtitle: "Marquee"
+  thumbnail: "/assets/images/goldman_sachs.png"
+  category: "work"
+
+- place: "Georgia Institute of Technology"
+  time: "Summer 2022"
+  title: "Bachelor Thesis"
+  subtitle: "CLAWS Group"
+  thumbnail: "/assets/images/gtech.png"
+  category: "work"
+
+- place: "Goldman Sachs"
+  time: "Summer 2022"
+  title: "Software Engineering Intern"
+  thumbnail: "/assets/images/goldman_sachs.png"
+  category: "work"
+
+- place: "IIT Madras"
+  time: "Summer 2020"
+  title: "Research Intern"
+  subtitle: "BIRDS Group"
+  thumbnail: "/assets/images/iitm.png"
+  category: "work"
+
+- place: "IRIS, NITK"
+  time: "2019-2021"
+  title: "Web Developer"
+  thumbnail: "/assets/images/iris.png"
+  category: "work"

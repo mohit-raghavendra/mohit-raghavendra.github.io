@@ -1,0 +1,9 @@
+source:      .
+destination: ./_site
+includes:    ./_includes
+domain: mohit-raghavendra.github.io
+url: https://mohit-raghavendra.github.io
+
+collections:
+  projects:
+    output: true
