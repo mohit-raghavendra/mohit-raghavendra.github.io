@@ -1,5 +1,12 @@
 experiences:
 
+- place: "Scale AI"
+  time: "Summer 2024"
+  title: "Machine Learning Research Engineer Intern"
+  subtitle: "GenAI"
+  thumbnail: "/assets/images/scale_ai.webp"
+  category: "work"
+
 - place: "Goldman Sachs"
   time: "2022 - 2023"
   title: "Software Engineer"
