@@ -4,9 +4,12 @@ title: Home
 ---
 <!-- ========== BIO ========== -->
 <div class="docs-section" id="bio">
-  <!-- <h4>Bio</h4> -->
-  <p>
-  I'm a Masters student in Computer Science at <b>Georgia Tech</b>, specializing in Machine Learning. I'm broadly interested in methods for building data and compute efficient Language Models that can handle comples reasoning tasks</p>
+  <div class="bio-content">
+    <!-- <h2 class="section-heading">Hello! 👋</h2> -->
+    <p class="bio-text">
+      I'm a Masters student in Computer Science at <b>Georgia Tech</b>, specializing in Machine Learning. I'm broadly interested in methods for building data and compute efficient Language Models that can handle complex reasoning tasks.
+    </p>
+  </div>
 </div>
 
 <!-- ========== EXPERIENCE ========== -->
@@ -18,10 +21,10 @@ title: Home
       <div class="direction-l">
         <div class="flag-wrapper">
           <span class="flag">{{ exp.place }}</span>
-          <span class="time-wrapper"><span class="time">{{ exp.time }}</span>
         </div>
 
         <div class="desc">
+          <span class="time">{{ exp.time }}</span><br/>
           <b>{{ exp.title }}</b> <br/> {{ exp.subtitle }}<br>
         </div>
         
@@ -45,9 +48,9 @@ title: Home
       <div class="direction-l">
         <div class="flag-wrapper">
           <span class="flag">{{ exp.place }}</span>
-          <span class="time-wrapper"><span class="time">{{ exp.time }}</span></span>
         </div>
         <div class="desc">
+          <span class="time">{{ exp.time }}</span> <br/>
           <b>{{ exp.title }}</b> <br/> {{ exp.subtitle }} <br>
         </div>
       </div>
@@ -63,5 +66,5 @@ title: Home
 
 
 <div class="docs-section" id="template">
-  Template from <a href="https://github.com/msaveski/www_personal" target="_blank">here</a>.
+  Template adapted from <a href="https://github.com/msaveski/www_personal" target="_blank">here</a>.
 </div>  

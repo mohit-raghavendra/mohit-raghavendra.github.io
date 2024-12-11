@@ -1,5 +1,12 @@
 experiences:
 
+- place: "Tensorlake AI"
+  time: "Fall 2024"
+  title: "Machine Learning Engineer"
+  subtitle: "Multimodal AI"
+  thumbnail: "/assets/images/tensorlake.png"
+  category: "work"
+
 - place: "Scale AI"
   time: "Summer 2024"
   title: "Machine Learning Research Engineer Intern"
@@ -14,14 +21,14 @@ experiences:
   thumbnail: "/assets/images/goldman_sachs.png"
   category: "work"
   
-- place: "Goldman Sachs"
-  time: "Summer 2022"
-  title: "Software Engineering Intern"
-  thumbnail: "/assets/images/goldman_sachs.png"
-  category: "work"
+# - place: "Goldman Sachs"
+#   time: "Summer 2022"
+#   title: "Software Engineering Intern"
+#   thumbnail: "/assets/images/goldman_sachs.png"
+#   category: "work"
 
-- place: "IRIS, NITK"
-  time: "2019-2021"
-  title: "Web Developer"
-  thumbnail: "/assets/images/iris.png"
-  category: "work"
+# - place: "IRIS, NITK"
+#   time: "2019-2021"
+#   title: "Web Developer"
+#   thumbnail: "/assets/images/iris.png"
+#   category: "work"
