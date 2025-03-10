@@ -5,10 +5,12 @@ title: Home
 <!-- ========== BIO ========== -->
 <div class="docs-section" id="bio">
   <div class="bio-content">
-    <!-- <h2 class="section-heading">Hello! 👋</h2> -->
-    <p class="bio-text">
-      I'm a Masters student in Computer Science at <b>Georgia Tech</b>, specializing in Machine Learning. I'm broadly interested in methods for building data and compute efficient Language Models that can handle complex reasoning tasks.
-    </p>
+    <div class="bio-bullets">
+      <ul>
+        <li>I study Machine Learning at <b>Georgia Tech</b> and work with <b>Prof. Alan Ritter</b> in the NLP-RX lab.</li>
+        <li>I'm interested in data and compute efficient post-training of Language Models for complex reasoning tasks.</li>
+      </ul>
+    </div>
   </div>
 </div>
 
@@ -24,14 +26,17 @@ title: Home
         </div>
 
         <div class="desc">
-          <span class="time">{{ exp.time }}</span><br/>
-          <b>{{ exp.title }}</b> <br/> {{ exp.subtitle }}<br>
+          <span class="time">{{ exp.time }}</span>
+          <div class="position-details">
+            <b>{{ exp.title }}</b> 
+            <div class="subtitle">{{ exp.subtitle }}</div>
+          </div>
         </div>
         
       </div>
       <div class="direction-r">
         {% if exp.thumbnail %}
-        <img src="{{ site.baseurl }}{{ exp.thumbnail }}" alt="b3do" width="100" style="border-style: none">
+        <img src="{{ site.baseurl }}{{ exp.thumbnail }}" alt="{{ exp.place }}" width="100">
         {% endif %}
       </div>
     </li>
@@ -50,13 +55,16 @@ title: Home
           <span class="flag">{{ exp.place }}</span>
         </div>
         <div class="desc">
-          <span class="time">{{ exp.time }}</span> <br/>
-          <b>{{ exp.title }}</b> <br/> {{ exp.subtitle }} <br>
+          <span class="time">{{ exp.time }}</span>
+          <div class="position-details">
+            <b>{{ exp.title }}</b>
+            <div class="subtitle">{{ exp.subtitle }}</div>
+          </div>
         </div>
       </div>
       <div class="direction-r">
         {% if exp.thumbnail %}
-        <img src="{{ site.baseurl }}{{ exp.thumbnail }}" alt="b3do" width="100" style="border-style: none">
+        <img src="{{ site.baseurl }}{{ exp.thumbnail }}" alt="{{ exp.place }}" width="100">
         {% endif %}
       </div>
     </li>
@@ -64,7 +72,8 @@ title: Home
   </ul>
 </div>
 
-
 <div class="docs-section" id="template">
-  Template adapted from <a href="https://github.com/msaveski/www_personal" target="_blank">here</a>.
-</div>  
+  <div class="footer-credit">
+    Template adapted from <a href="https://github.com/msaveski/www_personal" target="_blank">here</a>.
+  </div>
+</div>
