@@ -1,17 +1,17 @@
 experiences:
 
+- place: "Scale AI"
+  time: "2025 - Present"
+  title: "Machine Learning Research Engineer"
+  subtitle: "GenAI"
+  thumbnail: "/assets/images/scale_ai.webp"
+  category: "work"
+
 - place: "Tensorlake AI"
   time: "Fall 2024"
   title: "Machine Learning Engineer"
   subtitle: "Multimodal AI"
   thumbnail: "/assets/images/tensorlake.png"
-  category: "work"
-
-- place: "Scale AI"
-  time: "Summer 2024"
-  title: "Machine Learning Research Engineer Intern"
-  subtitle: "GenAI"
-  thumbnail: "/assets/images/scale_ai.webp"
   category: "work"
 
 - place: "Goldman Sachs"
